@@ -30,6 +30,22 @@
             </nav>
         </header>
         @yield('content')
+        <div class="bottom-menu">
+            <div class="container">
+                <div class="row">
+                    <div class="col-md-2 navbar-brand">
+                        <a href="/">Learning Laravel</a>
+                    </div>
+                    <div class="col-md-10">
+                        <ul class="bottom-links">
+                            <li><a href="/">Home</a></li>
+                            <li><a href="/about">About</a></li>
+                            <li><a href="/contact">Contact</a></li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
         <script src="https://code.jquery.com/jquery.js"></script>
         <script language="JavaScript" src="{{ URL::asset('js/bootstrap.min.js') }}"></script>
     </body>
