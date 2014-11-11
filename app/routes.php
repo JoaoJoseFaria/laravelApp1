@@ -43,3 +43,8 @@ Route::post('contact', function() {
     });
     return 'Your message has been sent';
 });
+
+Route::get('/tasks', 'TasksController@home');
+Route::get('/create', 'TasksController@create');
+Route::get('/edit', 'TasksController@edit');
+Route::get('/delete', 'TasksController@delete');
