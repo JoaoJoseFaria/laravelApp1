@@ -17,6 +17,7 @@
                         <span class="icon-bar"></span>
                         <span class="icon-bar"></span>
                         <span class="icon-bar"></span>
+                        <span class="icon-bar"></span>
                     </button>
                     <a class="navbar-brand" href="/">Learning Laravel</a>
                 </div>
@@ -25,6 +26,7 @@
                     <ul class="nav navbar-nav navbar-right">
                         <li><a href="/">Home</a></li>
                         <li><a href="/tasks">Tasks</a></li>
+                        <li><a href="/create">New Task</a></li>
                         <li><a href="/about">About</a></li>
                         <li><a href="/contact">Contact</a></li>
                     </ul>
@@ -42,6 +44,7 @@
                         <ul class="bottom-links">
                             <li><a href="/">Home</a></li>
                             <li><a href="/tasks">Tasks</a></li>
+                            <li><a href="/create">New Task</a></li>
                             <li><a href="/about">About</a></li>
                             <li><a href="/contact">Contact</a></li>
                         </ul>

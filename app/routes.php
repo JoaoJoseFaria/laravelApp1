@@ -45,6 +45,13 @@ Route::post('contact', function() {
 });
 
 Route::get('/tasks', 'TasksController@home');
-Route::get('/create', 'TasksController@create');
+
+Route::get('/create', function() {
+    return View::make('create');
+});
+
+Route::post('/create', 'TasksController@saveCreate');
+
 Route::get('/edit', 'TasksController@edit');
+
 Route::get('/delete', 'TasksController@delete');
