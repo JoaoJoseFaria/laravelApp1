@@ -17,8 +17,8 @@ class TasksController extends BaseController {
         return View::make('create');
     }
 
-    public function edit() {
-        return View::make('edit');
+    public function edit(Task $task) {
+        return View::make('edit', compact('task'));
     }
 
     public function delete() {

@@ -52,6 +52,6 @@ Route::get('/create', function() {
 
 Route::post('/create', 'TasksController@saveCreate');
 
-Route::get('/edit', 'TasksController@edit');
+Route::get('/edit?{task}', 'TasksController@edit');
 
 Route::get('/delete', 'TasksController@delete');
